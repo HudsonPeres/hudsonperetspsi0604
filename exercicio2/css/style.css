@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap')
+
+.mountains-of-christmas-regular {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mountains-of-christmas-bold {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.atma-light {
+  font-family: "Atma", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.atma-regular {
+  font-family: "Atma", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atma-medium {
+  font-family: "Atma", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.atma-semibold {
+  font-family: "Atma", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.atma-bold {
+  font-family: "Atma", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #e72c93;
+    box-shadow: 0 4px 8px rgba(247, 247, 247, 0.3);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; 
+    box-sizing: border-box; 
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.gifs-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 60px 0;
+}
+
+.gifs-col {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gif-center {
+    text-align: center;
+}
+
+.gif-center .descricao {
+    margin-top: 15px;
+    max-width: 350px;
+    font-size: 16px;
+}
+
+.gif-link {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+.gif-link p {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.gif-link:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.gallery-page {
+    padding-top: 140px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.gallery-page h2 {
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery-grid img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #e72c93;
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    background-color: #e72c93;
+    box-shadow: 0 -4px 8px rgba(236, 234, 234, 0.3);
+}
+
+footer .redes-sociais img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.redes-sociais a img {
+    transition: transform 0.3s ease; 
+}
+
+.redes-sociais a:hover img {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}
+
+footer .info-contacto p {
+    margin: 5px 0;
+}
+
